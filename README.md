@@ -1,4 +1,11 @@
 # Example of how to Fine-tuning a Deep Learning model using Pytorch
+## Prerequites
+
+```
+python >= 3.8
+pip install -r requirements.txt
+CUDA >= 11.4
+```
 
 ## 1. Understand architecture of pretrained-models, some requirements
 
