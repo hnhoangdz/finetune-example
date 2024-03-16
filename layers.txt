@@ -1,0 +1,444 @@
+Layer: conv1.0.weight
+ - Weight: torch.Size([8, 1, 3, 3])
+===============================
+===============================
+Layer: conv1.0.bias
+ - Weight: torch.Size([8])
+===============================
+===============================
+Layer: conv1.1.weight
+ - Weight: torch.Size([8])
+===============================
+===============================
+Layer: conv1.1.bias
+ - Weight: torch.Size([8])
+===============================
+===============================
+Layer: conv2.0.weight
+ - Weight: torch.Size([8, 8, 3, 3])
+===============================
+===============================
+Layer: conv2.0.bias
+ - Weight: torch.Size([8])
+===============================
+===============================
+Layer: conv2.1.weight
+ - Weight: torch.Size([8])
+===============================
+===============================
+Layer: conv2.1.bias
+ - Weight: torch.Size([8])
+===============================
+===============================
+Layer: cbam.cam.mlp.1.weight
+ - Weight: torch.Size([1, 8])
+===============================
+===============================
+Layer: cbam.cam.mlp.1.bias
+ - Weight: torch.Size([1])
+===============================
+===============================
+Layer: cbam.cam.mlp.4.weight
+ - Weight: torch.Size([8, 1])
+===============================
+===============================
+Layer: cbam.cam.mlp.4.bias
+ - Weight: torch.Size([8])
+===============================
+===============================
+Layer: cbam.sam.conv.conv.weight
+ - Weight: torch.Size([1, 2, 7, 7])
+===============================
+===============================
+Layer: cbam.sam.conv.bn.weight
+ - Weight: torch.Size([1])
+===============================
+===============================
+Layer: cbam.sam.conv.bn.bias
+ - Weight: torch.Size([1])
+===============================
+===============================
+Layer: block1.conv.0.weight
+ - Weight: torch.Size([16, 8, 1, 1])
+===============================
+===============================
+Layer: block1.conv.0.bias
+ - Weight: torch.Size([16])
+===============================
+===============================
+Layer: block1.conv.1.weight
+ - Weight: torch.Size([16])
+===============================
+===============================
+Layer: block1.conv.1.bias
+ - Weight: torch.Size([16])
+===============================
+===============================
+Layer: block1.sep_conv1.depthwise.weight
+ - Weight: torch.Size([8, 1, 3, 3])
+===============================
+===============================
+Layer: block1.sep_conv1.bnd.weight
+ - Weight: torch.Size([8])
+===============================
+===============================
+Layer: block1.sep_conv1.bnd.bias
+ - Weight: torch.Size([8])
+===============================
+===============================
+Layer: block1.sep_conv1.pointwise.weight
+ - Weight: torch.Size([16, 8, 1, 1])
+===============================
+===============================
+Layer: block1.sep_conv1.bnp.weight
+ - Weight: torch.Size([16])
+===============================
+===============================
+Layer: block1.sep_conv1.bnp.bias
+ - Weight: torch.Size([16])
+===============================
+===============================
+Layer: block1.sep_conv2.depthwise.weight
+ - Weight: torch.Size([16, 1, 3, 3])
+===============================
+===============================
+Layer: block1.sep_conv2.bnd.weight
+ - Weight: torch.Size([16])
+===============================
+===============================
+Layer: block1.sep_conv2.bnd.bias
+ - Weight: torch.Size([16])
+===============================
+===============================
+Layer: block1.sep_conv2.pointwise.weight
+ - Weight: torch.Size([16, 16, 1, 1])
+===============================
+===============================
+Layer: block1.sep_conv2.bnp.weight
+ - Weight: torch.Size([16])
+===============================
+===============================
+Layer: block1.sep_conv2.bnp.bias
+ - Weight: torch.Size([16])
+===============================
+===============================
+Layer: block1.cbam.cam.mlp.1.weight
+ - Weight: torch.Size([2, 16])
+===============================
+===============================
+Layer: block1.cbam.cam.mlp.1.bias
+ - Weight: torch.Size([2])
+===============================
+===============================
+Layer: block1.cbam.cam.mlp.4.weight
+ - Weight: torch.Size([16, 2])
+===============================
+===============================
+Layer: block1.cbam.cam.mlp.4.bias
+ - Weight: torch.Size([16])
+===============================
+===============================
+Layer: block1.cbam.sam.conv.conv.weight
+ - Weight: torch.Size([1, 2, 7, 7])
+===============================
+===============================
+Layer: block1.cbam.sam.conv.bn.weight
+ - Weight: torch.Size([1])
+===============================
+===============================
+Layer: block1.cbam.sam.conv.bn.bias
+ - Weight: torch.Size([1])
+===============================
+===============================
+Layer: block2.conv.0.weight
+ - Weight: torch.Size([32, 16, 1, 1])
+===============================
+===============================
+Layer: block2.conv.0.bias
+ - Weight: torch.Size([32])
+===============================
+===============================
+Layer: block2.conv.1.weight
+ - Weight: torch.Size([32])
+===============================
+===============================
+Layer: block2.conv.1.bias
+ - Weight: torch.Size([32])
+===============================
+===============================
+Layer: block2.sep_conv1.depthwise.weight
+ - Weight: torch.Size([16, 1, 3, 3])
+===============================
+===============================
+Layer: block2.sep_conv1.bnd.weight
+ - Weight: torch.Size([16])
+===============================
+===============================
+Layer: block2.sep_conv1.bnd.bias
+ - Weight: torch.Size([16])
+===============================
+===============================
+Layer: block2.sep_conv1.pointwise.weight
+ - Weight: torch.Size([32, 16, 1, 1])
+===============================
+===============================
+Layer: block2.sep_conv1.bnp.weight
+ - Weight: torch.Size([32])
+===============================
+===============================
+Layer: block2.sep_conv1.bnp.bias
+ - Weight: torch.Size([32])
+===============================
+===============================
+Layer: block2.sep_conv2.depthwise.weight
+ - Weight: torch.Size([32, 1, 3, 3])
+===============================
+===============================
+Layer: block2.sep_conv2.bnd.weight
+ - Weight: torch.Size([32])
+===============================
+===============================
+Layer: block2.sep_conv2.bnd.bias
+ - Weight: torch.Size([32])
+===============================
+===============================
+Layer: block2.sep_conv2.pointwise.weight
+ - Weight: torch.Size([32, 32, 1, 1])
+===============================
+===============================
+Layer: block2.sep_conv2.bnp.weight
+ - Weight: torch.Size([32])
+===============================
+===============================
+Layer: block2.sep_conv2.bnp.bias
+ - Weight: torch.Size([32])
+===============================
+===============================
+Layer: block2.cbam.cam.mlp.1.weight
+ - Weight: torch.Size([4, 32])
+===============================
+===============================
+Layer: block2.cbam.cam.mlp.1.bias
+ - Weight: torch.Size([4])
+===============================
+===============================
+Layer: block2.cbam.cam.mlp.4.weight
+ - Weight: torch.Size([32, 4])
+===============================
+===============================
+Layer: block2.cbam.cam.mlp.4.bias
+ - Weight: torch.Size([32])
+===============================
+===============================
+Layer: block2.cbam.sam.conv.conv.weight
+ - Weight: torch.Size([1, 2, 7, 7])
+===============================
+===============================
+Layer: block2.cbam.sam.conv.bn.weight
+ - Weight: torch.Size([1])
+===============================
+===============================
+Layer: block2.cbam.sam.conv.bn.bias
+ - Weight: torch.Size([1])
+===============================
+===============================
+Layer: block3.conv.0.weight
+ - Weight: torch.Size([64, 32, 1, 1])
+===============================
+===============================
+Layer: block3.conv.0.bias
+ - Weight: torch.Size([64])
+===============================
+===============================
+Layer: block3.conv.1.weight
+ - Weight: torch.Size([64])
+===============================
+===============================
+Layer: block3.conv.1.bias
+ - Weight: torch.Size([64])
+===============================
+===============================
+Layer: block3.sep_conv1.depthwise.weight
+ - Weight: torch.Size([32, 1, 3, 3])
+===============================
+===============================
+Layer: block3.sep_conv1.bnd.weight
+ - Weight: torch.Size([32])
+===============================
+===============================
+Layer: block3.sep_conv1.bnd.bias
+ - Weight: torch.Size([32])
+===============================
+===============================
+Layer: block3.sep_conv1.pointwise.weight
+ - Weight: torch.Size([64, 32, 1, 1])
+===============================
+===============================
+Layer: block3.sep_conv1.bnp.weight
+ - Weight: torch.Size([64])
+===============================
+===============================
+Layer: block3.sep_conv1.bnp.bias
+ - Weight: torch.Size([64])
+===============================
+===============================
+Layer: block3.sep_conv2.depthwise.weight
+ - Weight: torch.Size([64, 1, 3, 3])
+===============================
+===============================
+Layer: block3.sep_conv2.bnd.weight
+ - Weight: torch.Size([64])
+===============================
+===============================
+Layer: block3.sep_conv2.bnd.bias
+ - Weight: torch.Size([64])
+===============================
+===============================
+Layer: block3.sep_conv2.pointwise.weight
+ - Weight: torch.Size([64, 64, 1, 1])
+===============================
+===============================
+Layer: block3.sep_conv2.bnp.weight
+ - Weight: torch.Size([64])
+===============================
+===============================
+Layer: block3.sep_conv2.bnp.bias
+ - Weight: torch.Size([64])
+===============================
+===============================
+Layer: block3.cbam.cam.mlp.1.weight
+ - Weight: torch.Size([8, 64])
+===============================
+===============================
+Layer: block3.cbam.cam.mlp.1.bias
+ - Weight: torch.Size([8])
+===============================
+===============================
+Layer: block3.cbam.cam.mlp.4.weight
+ - Weight: torch.Size([64, 8])
+===============================
+===============================
+Layer: block3.cbam.cam.mlp.4.bias
+ - Weight: torch.Size([64])
+===============================
+===============================
+Layer: block3.cbam.sam.conv.conv.weight
+ - Weight: torch.Size([1, 2, 7, 7])
+===============================
+===============================
+Layer: block3.cbam.sam.conv.bn.weight
+ - Weight: torch.Size([1])
+===============================
+===============================
+Layer: block3.cbam.sam.conv.bn.bias
+ - Weight: torch.Size([1])
+===============================
+===============================
+Layer: block4.conv.0.weight
+ - Weight: torch.Size([128, 64, 1, 1])
+===============================
+===============================
+Layer: block4.conv.0.bias
+ - Weight: torch.Size([128])
+===============================
+===============================
+Layer: block4.conv.1.weight
+ - Weight: torch.Size([128])
+===============================
+===============================
+Layer: block4.conv.1.bias
+ - Weight: torch.Size([128])
+===============================
+===============================
+Layer: block4.sep_conv1.depthwise.weight
+ - Weight: torch.Size([64, 1, 3, 3])
+===============================
+===============================
+Layer: block4.sep_conv1.bnd.weight
+ - Weight: torch.Size([64])
+===============================
+===============================
+Layer: block4.sep_conv1.bnd.bias
+ - Weight: torch.Size([64])
+===============================
+===============================
+Layer: block4.sep_conv1.pointwise.weight
+ - Weight: torch.Size([128, 64, 1, 1])
+===============================
+===============================
+Layer: block4.sep_conv1.bnp.weight
+ - Weight: torch.Size([128])
+===============================
+===============================
+Layer: block4.sep_conv1.bnp.bias
+ - Weight: torch.Size([128])
+===============================
+===============================
+Layer: block4.sep_conv2.depthwise.weight
+ - Weight: torch.Size([128, 1, 3, 3])
+===============================
+===============================
+Layer: block4.sep_conv2.bnd.weight
+ - Weight: torch.Size([128])
+===============================
+===============================
+Layer: block4.sep_conv2.bnd.bias
+ - Weight: torch.Size([128])
+===============================
+===============================
+Layer: block4.sep_conv2.pointwise.weight
+ - Weight: torch.Size([128, 128, 1, 1])
+===============================
+===============================
+Layer: block4.sep_conv2.bnp.weight
+ - Weight: torch.Size([128])
+===============================
+===============================
+Layer: block4.sep_conv2.bnp.bias
+ - Weight: torch.Size([128])
+===============================
+===============================
+Layer: block4.cbam.cam.mlp.1.weight
+ - Weight: torch.Size([16, 128])
+===============================
+===============================
+Layer: block4.cbam.cam.mlp.1.bias
+ - Weight: torch.Size([16])
+===============================
+===============================
+Layer: block4.cbam.cam.mlp.4.weight
+ - Weight: torch.Size([128, 16])
+===============================
+===============================
+Layer: block4.cbam.cam.mlp.4.bias
+ - Weight: torch.Size([128])
+===============================
+===============================
+Layer: block4.cbam.sam.conv.conv.weight
+ - Weight: torch.Size([1, 2, 7, 7])
+===============================
+===============================
+Layer: block4.cbam.sam.conv.bn.weight
+ - Weight: torch.Size([1])
+===============================
+===============================
+Layer: block4.cbam.sam.conv.bn.bias
+ - Weight: torch.Size([1])
+===============================
+===============================
+Layer: last_conv.0.weight
+ - Weight: torch.Size([7, 128, 3, 3])
+===============================
+===============================
+Layer: last_conv.0.bias
+ - Weight: torch.Size([7])
+===============================
+===============================
+Layer: last_conv.1.weight
+ - Weight: torch.Size([7])
+===============================
+===============================
+Layer: last_conv.1.bias
+ - Weight: torch.Size([7])
+===============================
+===============================
