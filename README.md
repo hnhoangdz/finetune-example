@@ -5,10 +5,16 @@
 - Large pretrained-data (Fer2013 + FerPlus + CK)
 - Model must be enough complex
 
-## 2. Define specific layers will be update, some requirements (see finetune.py)
+## 2. Define specific layers that will be updated, some requirements (see finetune.py)
 
 - Unfreeze all layers except defined specific layers above
-- Append spefic layers name to list and push to optimizer (Pytorch)
-- Specific layers should be stay in the last layers
+- Append specific layers name to list and push to optimizer (Pytorch)
+- Specific layers should stay in the last layers
 
 ## 3. Finetune
+
+- [Pretrained-data](https://drive.google.com/file/d/1SrJGftqih4MCLjrT2xJgNXOLQAYKXbbB/view?usp=sharing)
+- [Finetuning-data](https://drive.google.com/file/d/1Wdojeyb2il-qqprRyC6oHzK4k4X6H0mE/view?usp=sharing)
+- Push data into dataset folder
+- Run the code in train.py to pretrain
+- Run the code in finetune.py to finetune
